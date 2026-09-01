@@ -1,0 +1,14 @@
+{
+  "name": "telegram-queue-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that receives social media links, lets you pick quality, queues them with a 10-minute gap, and posts to a target group",
+  "main": "api/webhook.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}
